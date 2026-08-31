@@ -15,7 +15,7 @@ Built around a **Model Context Protocol (MCP)** style workflow: the agent propos
 - **Gmail via engine.py** (optional) — connects to a real inbox via Gmail OAuth (`credentials.json` / `token.json`). Not available on the hosted demo.
 
 ## Tech
-Python · Streamlit · Google Gemini (`gemini-2.5-flash`) · MCP-style approval workflow
+Python · Streamlit · Google Gemini (`gemini-3.6-flash`) · MCP-style approval workflow
 
 ## Run locally
 ```bash

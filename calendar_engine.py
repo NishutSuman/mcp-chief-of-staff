@@ -172,7 +172,7 @@ _HERE = Path(__file__).resolve().parent
 load_dotenv(dotenv_path=_HERE / ".env")
 load_dotenv()
 
-_GEMINI_MODEL = "gemini-2.5-flash"
+_GEMINI_MODEL = "gemini-3.6-flash"
 
 # Regex for stripping markdown code fences (```json … ``` or ``` … ```)
 import re
@@ -187,7 +187,7 @@ def parse_meeting_request(thread: dict[str, Any]) -> dict[str, Any]:
     """Use Gemini to extract meeting details from an email thread.
 
     Concatenates all messages in ``thread["messages"]`` into a single
-    plain-text block, then asks Gemini (gemini-2.5-flash) to return a
+    plain-text block, then asks Gemini (gemini-3.6-flash) to return a
     JSON object with the following keys:
 
     - ``proposed_times``    : list[str]  — ISO-8601 datetime strings

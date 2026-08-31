@@ -2,7 +2,7 @@
 draft_machine.py
 ================
 
-Generates email replies using Google's Gemini model (``gemini-2.5-flash``)
+Generates email replies using Google's Gemini model (``gemini-3.6-flash``)
 in the voice defined by ``tone_profile.json`` and the few-shot examples in
 ``past_replies.json``.
 
@@ -35,7 +35,7 @@ from context_builder import assemble_context
 # Configuration
 # ---------------------------------------------------------------------------
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.6-flash"
 
 # Extra drafting rules layered on top of the system prompt assembled by
 # ``context_builder``. These are the hard constraints every draft must obey.

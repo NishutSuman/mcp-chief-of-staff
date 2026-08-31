@@ -18,7 +18,7 @@ def _get_model():
                 'Manage app -> Settings -> Secrets as:  GEMINI_API_KEY = "your_key"'
             )
         genai.configure(api_key=api_key)
-        _model = genai.GenerativeModel("gemini-2.5-flash")
+        _model = genai.GenerativeModel("gemini-3.6-flash")
     return _model
 
 
