@@ -1,0 +1,9 @@
+streamlit>=1.28
+google-generativeai>=0.7
+python-dotenv
+
+# Optional — only for the "Gmail via engine.py" live OAuth mode.
+# The default "Sample threads" mode runs without these.
+google-api-python-client
+google-auth
+google-auth-oauthlib

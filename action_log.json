@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-06-26T18:43:34.956357+00:00",
+    "action_type": "sent",
+    "thread_subject": "Declined: Discuss the important project @ Sat 27 Jun 2026 7:30pm - 8pm (IST) (gtanishq96@gmail.com)",
+    "detail": "gtanishq95@gmail.com",
+    "id": "19f053b2a753005a"
+  },
+  {
+    "timestamp": "2026-06-26T18:54:04.606641+00:00",
+    "action_type": "booked",
+    "thread_subject": "Important meeting to discuss about revenue",
+    "detail": "Important meeting to discuss about revenue",
+    "id": "djt8pe45ggpo2gdb6ha4vc34b4"
+  },
+  {
+    "timestamp": "2026-06-26T18:54:43.259667+00:00",
+    "action_type": "sent",
+    "thread_subject": "Important meeting to discuss about revenue",
+    "detail": "gtanishq95@gmail.com",
+    "id": "19f0546de7488d93"
+  },
+  {
+    "timestamp": "2026-06-26T19:01:59.657009+00:00",
+    "action_type": "booked",
+    "thread_subject": "Important meeting to discuss about hiring",
+    "detail": "Hiring discussion",
+    "id": "8qp85vdfkrfjanpdcuhtt1vjto"
+  },
+  {
+    "timestamp": "2026-06-26T19:02:13.993888+00:00",
+    "action_type": "sent",
+    "thread_subject": "Important meeting to discuss about hiring",
+    "detail": "gtanishq95@gmail.com",
+    "id": "19f054d52086adc4"
+  },
+  {
+    "timestamp": "2026-07-04T11:47:44.820344+00:00",
+    "action_type": "sent",
+    "thread_subject": "Your Supabase Project Backend as a Service is going to be paused.",
+    "detail": "ant.wilson@supabase.com",
+    "id": "19f2bef10a243106"
+  },
+  {
+    "timestamp": "2026-07-04T12:12:53.014831+00:00",
+    "action_type": "booked",
+    "thread_subject": "Important meeting regarding hiring",
+    "detail": "Hiring",
+    "id": "g82n3s5aq8reqivaor6nepk5fs"
+  },
+  {
+    "timestamp": "2026-07-04T12:13:26.557686+00:00",
+    "action_type": "sent",
+    "thread_subject": "Important meeting regarding hiring",
+    "detail": "gtanishq95@gmail.com",
+    "id": "19f2d0a7b7efb239"
+  }
+]

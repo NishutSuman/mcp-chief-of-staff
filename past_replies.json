@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "context": "Replying to a teammate asking for a deadline extension on a feature spec",
+    "incoming_subject": "Re: Q3 onboarding spec - more time?",
+    "reply": "Hi Priya,\n\nTotally fair - happy to give you until Thursday. The spec is shaping up well, and an extra day on the details will make handoff to engineering smoother.\n\nNo worries at all on the slipped date. Just ping me when it's ready and I'll do a quick pass the same day.\n\nBest,\nRahul"
+  },
+  {
+    "id": 2,
+    "context": "Replying to a customer (via support) who reported a bug and is mildly frustrated",
+    "incoming_subject": "Re: Dashboard keeps timing out",
+    "reply": "Hi Marcus,\n\nReally sorry you're hitting this - dashboard timeouts are never fun, especially mid-week. I've flagged this with the eng team on-call and they're pulling the logs now.\n\nYou'll hear back from me by end of day tomorrow with what we find. In the meantime, the workaround is to switch to the 'Last 7 days' view, which is much lighter.\n\nAppreciate you flagging it.\n\nThanks,\nRahul"
+  },
+  {
+    "id": 3,
+    "context": "Replying to a cross-functional partner pushing back on a launch date",
+    "incoming_subject": "Re: Nov launch - is Nov 12 realistic?",
+    "reply": "Hey Sam,\n\nHonest take: Nov 12 is tight but doable if we lock the scope by end of this week. I'd rather pull the date by a week than ship something shaky - that trade-off is yours to make.\n\nIf you want, I can put together a one-pager by tomorrow outlining what's in and what's at risk. Then we can decide together with the data in front of us.\n\nLet me know what works.\n\nCheers,\nRahul"
+  }
+]

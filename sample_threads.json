@@ -1,0 +1,45 @@
+[
+  {
+    "id": "thread_001",
+    "subject": "URGENT: Production API returning 500 errors for /checkout",
+    "messages": [
+      {
+        "from": "Priya Shah <priya.shah@acme.io>",
+        "date": "2026-06-20T14:23:00+05:30",
+        "body": "Hey — checkout endpoint has been throwing 500s for the last 25 minutes. Affects roughly 30% of traffic on /checkout and /checkout/confirm. We're paged. Can you join #incident-checkout now? Already looped in SRE and the payments on-call."
+      },
+      {
+        "from": "Priya Shah <priya.shah@acme.io>",
+        "date": "2026-06-20T14:31:00+05:30",
+        "body": "Update: error rate dropped to ~12% after a config rollback, still elevated. Looking like a downstream payments gateway timeout. Need a decision on whether to keep rolling back or hold. Need your read ASAP."
+      }
+    ]
+  },
+  {
+    "id": "thread_002",
+    "subject": "Q3 Roadmap — looking for your sign-off before Thursday",
+    "messages": [
+      {
+        "from": "Marcus Chen <marcus.chen@acme.io>",
+        "date": "2026-06-20T10:05:00+05:30",
+        "body": "Hi — sharing the Q3 roadmap draft ahead of the leadership review. Three big bets: (1) revamp onboarding for self-serve, (2) launch the partner API, (3) sunset the legacy mobile app. I'd love your candid read on whether we're under-investing in retention. Can you reply with thoughts by EOD Thursday? Happy to jump on a 20-min call if easier."
+      }
+    ]
+  },
+  {
+    "id": "thread_003",
+    "subject": "Sync on ML infrastructure cost spike — can we find 30 min this week?",
+    "messages": [
+      {
+        "from": "Aisha Patel <aisha.patel@acme.io>",
+        "date": "2026-06-22T09:15:00+05:30",
+        "body": "Hi,\n\nOur ML training costs jumped 40% last month — looks like a combination of untuned spot-instance retries and a couple of runaway experiment jobs. I want to walk you through the numbers and get alignment on a spending cap before the billing cycle closes.\n\nWould you be free for a 30-minute call? I have the following slots open this week:\n\n- Wednesday 25 June at 2:00 PM IST\n- Thursday 26 June at 11:00 AM IST\n- Friday 27 June at 3:30 PM IST\n\nLet me know which works best and I'll send a calendar invite.\n\nThanks,\nAisha"
+      },
+      {
+        "from": "Aisha Patel <aisha.patel@acme.io>",
+        "date": "2026-06-22T11:42:00+05:30",
+        "body": "Just flagging — Wednesday 2 PM is my preference since I have all the cost dashboards pulled up for that slot already. But any of the three works. Also happy to include Rohan from FinOps if you think that's useful.\n\nAisha"
+      }
+    ]
+  }
+]
