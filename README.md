@@ -31,9 +31,8 @@ streamlit run app.py
    ```toml
    GEMINI_API_KEY = "your_gemini_api_key"
    ```
-   (Or skip this and paste the key into the app's own key field at runtime.)
 4. **Deploy**, then use **Sample threads** mode to try the full flow.
 
 ## Secrets
-- `GEMINI_API_KEY` — required for triage/draft (free at https://aistudio.google.com/app/apikey). Can be set in Secrets **or** entered in the UI.
+- `GEMINI_API_KEY` — required for triage/draft (free at https://aistudio.google.com/app/apikey). Set it in Secrets (Streamlit exposes it as an env var).
 - `credentials.json` / `token.json` — only for the optional live-Gmail mode; never committed.

@@ -4,8 +4,23 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.5-flash")
+_model = None
+
+
+def _get_model():
+    """Lazily configure Gemini so a missing key never crashes on import."""
+    global _model
+    if _model is None:
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "GEMINI_API_KEY is not set. On Streamlit Cloud, add it under "
+                'Manage app -> Settings -> Secrets as:  GEMINI_API_KEY = "your_key"'
+            )
+        genai.configure(api_key=api_key)
+        _model = genai.GenerativeModel("gemini-2.5-flash")
+    return _model
+
 
 def triage_thread(sender: str, subject: str, snippet: str) -> dict:
     prompt = f"""
@@ -23,7 +38,7 @@ def triage_thread(sender: str, subject: str, snippet: str) -> dict:
         Reason: <one sentence explaining why>
         """
 
-    response = model.generate_content(prompt)
+    response = _get_model().generate_content(prompt)
 
     return parse_triage_response(response.text)
 
